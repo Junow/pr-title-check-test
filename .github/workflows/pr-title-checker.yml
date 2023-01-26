@@ -1,0 +1,17 @@
+name: 'PR Title Checker'
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - labeled
+      - unlabeled
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: thehanimo/pr-title-checker@v1.3.5
+        with:
+          configuration_path: '.github/pr-title-checker-config.json'

@@ -1,0 +1,15 @@
+{
+  "LABEL": {
+    "name": "title needs formatting",
+    "color": "#ff0000"
+  },
+  "CHECKS": {
+    "regexp": "^\\[(\\w)+-(\\d)*\\]",
+    "ignoreLabels": ["no-pr-checker", "meta"]
+  },
+  "MESSAGES": {
+    "success": "All OK",
+    "failure": "Failing CI test",
+    "notice": ""
+  }
+}
