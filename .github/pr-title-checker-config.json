@@ -1,7 +1,7 @@
 {
   "LABEL": {
-    "name": "title needs formatting",
-    "color": "#ff0000"
+    "name": "PR 제목을 적절하게 바꿔주세요",
+    "color": "ff0000"
   },
   "CHECKS": {
     "regexp": "^\\[(\\w)+-(\\d)*\\]",
