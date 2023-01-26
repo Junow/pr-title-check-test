@@ -9,7 +9,7 @@
   },
   "MESSAGES": {
     "success": "All OK",
-    "failure": "Failing CI test",
+    "failure": "PR 제목을 적절하게 바꿔주세요. e.g. [FE-123] qwe",
     "notice": ""
   }
 }
